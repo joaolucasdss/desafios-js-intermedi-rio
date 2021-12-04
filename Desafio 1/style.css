@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 25px;
+}
+
+img {
+    width: 80%;
+}
+
+
+.primeira-imagem, 
+.segunda-imagem,
+.terceira-imagem,
+.quarta-imagem {
+    position: relative;
+    width: 100%;
+}
+
+.titulo-imagem-1 {
+    position: absolute;
+    width: 25%;
+    left: 150px;
+    top: 150px;
+    background-color: white;
+    padding: 55px;
+    border-radius: 15px;
+}
+
+
+.titulo-imagem-2 {
+    position: absolute;
+    width: 25%;
+    left: 150px;
+    top: 150px;
+    background-color: white;
+    padding: 55px;
+    border-radius: 15px;
+}
+
+.titulo-imagem-3 {
+    position: absolute;
+    width: 25%;
+    left: 150px;
+    top: 150px;
+    background-color: white;
+    padding: 55px;
+    border-radius: 15px;
+}
+
+.titulo-imagem-4 {
+    position: absolute;
+    width: 25%;
+    left: 150px;
+    top: 150px;
+    background-color: white;
+    padding: 55px;
+    border-radius: 15px;
+}
+
+button {
+    border: none;
+    background-color: white;
+    color: red;
+    font-size: 30px;
+}
+
+.botao-1 {
+    color: #C50000;
+}
+
+.botao-2 {
+    color: #D9DD10 ;
+}
+
+.botao-3 {
+    color: #A63A17;
+}
+
+.botao-4 {
+    color: #10ACDD;
+}
+
+.previous {
+    position:absolute;
+    top: 350px;
+    right: 1807px;
+    opacity: 15%;
+    width: 5%;
+    background-color: black;
+    transform: scaleX(-1);
+}
+
+.next {
+    position: relative;
+    top: 350px;
+    float: right;
+    opacity: 15%;
+    width: 5%;
+    background-color: black;
+}
