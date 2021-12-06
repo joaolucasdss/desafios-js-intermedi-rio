@@ -15,11 +15,10 @@ img {
     width: 80%;
 }
 
-
-.primeira-imagem, 
-.segunda-imagem,
-.terceira-imagem,
-.quarta-imagem {
+.imagem-1, 
+.imagem-2,
+.imagem-3,
+.imagem-4 {
     position: relative;
     width: 100%;
 }
@@ -88,7 +87,7 @@ button {
     color: #10ACDD;
 }
 
-.previous {
+.glider-prev {
     position:absolute;
     top: 50%;
     right: 1807px;
@@ -98,7 +97,7 @@ button {
     transform: scaleX(-1);
 }
 
-.next {
+.glider-next {
     position: absolute;
     top: 50%;
     left: 1427px;
