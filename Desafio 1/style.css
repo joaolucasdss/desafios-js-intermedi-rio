@@ -90,7 +90,7 @@ button {
 
 .previous {
     position:absolute;
-    top: 350px;
+    top: 50%;
     right: 1807px;
     opacity: 15%;
     width: 5%;
@@ -99,9 +99,9 @@ button {
 }
 
 .next {
-    position: relative;
-    top: 350px;
-    float: right;
+    position: absolute;
+    top: 50%;
+    left: 1427px;
     opacity: 15%;
     width: 5%;
     background-color: black;
